@@ -1,0 +1,9 @@
+Vcloud	:	0.009	0.095	0.005
+Vcam photo/video shoot	:	0.222	0.116	0.038
+Photos-Videos	:	0.148	0.116	0.571
+Alarm	:	0.130	0.074	0.050
+Vmarket	:	0.056	0.095	0.148
+Contacts	:	0.102	0.084	0.012
+Dialer phone call	:	0.185	0.168	0.024
+Themes	:	0.037	0.074	0.016
+SMS/MMS	:	0.111	0.179	0.136

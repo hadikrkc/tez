@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram:Diagram xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:association="http://all4tec.net/matelo/association/v5.5.0" xmlns:diagram="http://all4tec.net/matelo/diagram/v5.5.0" xmlns:scriptingassociation="http://all4tec.net/matelo/testplateform/scripting/scriptingassociation/v5.5.0" xmlns:scriptinglibrary="http://all4tec.net/matelo/testplateform/scripting/library/v5.5.0" uUID="_txzRYME3EeaF7ICwTOt7Rg">
+  <extraProperties key="LAST_MODIFICATION_DATE" value="Jun 4, 2017 9:35:42 AM"/>
+  <invokeState uUID="_x2DLUbeyEea6Bf9LxdzGKA" name="Invoke" description="The initial state of this chain" xPosition="446.5099" yPosition="-62.035713" outgoingTransitions="_uCqHULe0Eea6Bf9LxdzGKA"/>
+  <terminateState uUID="_x2DLUreyEea6Bf9LxdzGKA" name="Terminate" description="The final state of this chain" xPosition="389.25406" yPosition="614.83496" incomingTransitions="_ics20ME2EeazFsXKgh8MLg"/>
+  <states uUID="_poNVQLe0Eea6Bf9LxdzGKA" name="bank" xPosition="502.16217" yPosition="155.60368" incomingTransitions="_0WXhELe0Eea6Bf9LxdzGKA" outgoingTransitions="_AIJGALe1Eea6Bf9LxdzGKA">
+    <chain href="/.prt#_Db-_4Le2Eea6Bf9LxdzGKA"/>
+  </states>
+  <states uUID="_pXXc4Le0Eea6Bf9LxdzGKA" name="bmaps" xPosition="340.1712" yPosition="153.80121" incomingTransitions="_02qxwLe0Eea6Bf9LxdzGKA" outgoingTransitions="__mw3QLe0Eea6Bf9LxdzGKA">
+    <chain href="/.prt#_ClLTsLe2Eea6Bf9LxdzGKA"/>
+  </states>
+  <states uUID="_p-9oYLe0Eea6Bf9LxdzGKA" name="browser" xPosition="688.36194" yPosition="157.07007" incomingTransitions="_zoCbcLe0Eea6Bf9LxdzGKA" outgoingTransitions="_AyAiYLe1Eea6Bf9LxdzGKA">
+    <chain href="/.prt#_InI48ME0EeazFsXKgh8MLg"/>
+  </states>
+  <states uUID="_nwwrcLe0Eea6Bf9LxdzGKA" name="game" xPosition="-62.37073" yPosition="158.98734" incomingTransitions="_2fr-ALe0Eea6Bf9LxdzGKA" outgoingTransitions="_-NvO0Le0Eea6Bf9LxdzGKA">
+    <chain href="/.prt#_r8LGgLe1Eea6Bf9LxdzGKA"/>
+  </states>
+  <states uUID="_pSTWsLe0Eea6Bf9LxdzGKA" name="googleApps" xPosition="276.27426" yPosition="153.63414" incomingTransitions="_1AzlMLe0Eea6Bf9LxdzGKA" outgoingTransitions="__cwmsLe0Eea6Bf9LxdzGKA">
+    <chain href="/.prt#_CSZhoLe2Eea6Bf9LxdzGKA"/>
+  </states>
+  <states uUID="_p6MdILe0Eea6Bf9LxdzGKA" name="gsm apps" xPosition="626.83246" yPosition="153.93665" incomingTransitions="_z3E9ALe0Eea6Bf9LxdzGKA" outgoingTransitions="_Aiqe0Le1Eea6Bf9LxdzGKA">
+    <chain href="/.prt#_H-m5UME0EeazFsXKgh8MLg"/>
+  </states>
+  <states uUID="_pdxm4Le0Eea6Bf9LxdzGKA" name="mail" xPosition="401.10178" yPosition="157.11133" incomingTransitions="_0sbQoLe0Eea6Bf9LxdzGKA" outgoingTransitions="__xVvkLe0Eea6Bf9LxdzGKA">
+    <chain href="/.prt#_C4G2wLe2Eea6Bf9LxdzGKA"/>
+  </states>
+  <states uUID="_oHyEULe0Eea6Bf9LxdzGKA" name="news" xPosition="122.87265" yPosition="156.5109" incomingTransitions="_1qFLsLe0Eea6Bf9LxdzGKA" outgoingTransitions="_-4D-MLe0Eea6Bf9LxdzGKA">
+    <chain href="/.prt#_BLBC0Le2Eea6Bf9LxdzGKA"/>
+  </states>
+  <states uUID="_qCPl4Le0Eea6Bf9LxdzGKA" name="other" xPosition="760.7451" yPosition="155.35117" incomingTransitions="_zWAQQLe0Eea6Bf9LxdzGKA" outgoingTransitions="_BAK6MLe1Eea6Bf9LxdzGKA">
+    <chain href="/.prt#_nIwoMME0EeazFsXKgh8MLg"/>
+  </states>
+  <states uUID="_pvUC0Le0Eea6Bf9LxdzGKA" name="phone_default" xPosition="556.90216" yPosition="153.724" incomingTransitions="_0H61YLe0Eea6Bf9LxdzGKA" outgoingTransitions="_AVjP4Le1Eea6Bf9LxdzGKA">
+    <chain href="/.prt#_4KoNwME0EeazFsXKgh8MLg"/>
+  </states>
+  <states uUID="_oTDgMLe0Eea6Bf9LxdzGKA" name="photo" xPosition="230.00662" yPosition="153.06944" incomingTransitions="_1OElILe0Eea6Bf9LxdzGKA" outgoingTransitions="__RMP4Le0Eea6Bf9LxdzGKA">
+    <chain href="/.prt#_B-lNwLe2Eea6Bf9LxdzGKA"/>
+  </states>
+  <states uUID="_fzsNMME2EeazFsXKgh8MLg" name="Reboot" xPosition="480.5006" yPosition="452.4618" incomingTransitions="_g2Al0ME2EeazFsXKgh8MLg" outgoingTransitions="_itlygME2EeazFsXKgh8MLg"/>
+  <states uUID="_n7WK0Le0Eea6Bf9LxdzGKA" name="shop" xPosition="3.5392475" yPosition="157.52097" incomingTransitions="_2Ngo4Le0Eea6Bf9LxdzGKA" outgoingTransitions="_-c8IcLe0Eea6Bf9LxdzGKA">
+    <chain href="/.prt#_yMfOALe1Eea6Bf9LxdzGKA"/>
+  </states>
+  <states uUID="_oB5ewLe0Eea6Bf9LxdzGKA" name="social media" xPosition="57.83851" yPosition="152.44131" incomingTransitions="_1-_rwLe0Eea6Bf9LxdzGKA" outgoingTransitions="_-qMhULe0Eea6Bf9LxdzGKA">
+    <chain href="/.prt#_ygjZgLe1Eea6Bf9LxdzGKA"/>
+  </states>
+  <states uUID="_piZoMLe0Eea6Bf9LxdzGKA" name="sport" xPosition="450.94824" yPosition="157.3887" incomingTransitions="_0iJTQLe0Eea6Bf9LxdzGKA" outgoingTransitions="__76n4Le0Eea6Bf9LxdzGKA">
+    <chain href="/.prt#_DKUoILe2Eea6Bf9LxdzGKA"/>
+  </states>
+  <states uUID="_bgkyMME2EeazFsXKgh8MLg" name="StandbyOnOff" xPosition="180.18669" yPosition="444.10184" incomingTransitions="_vJd-YLe0Eea6Bf9LxdzGKA" outgoingTransitions="_iWI70ME2EeazFsXKgh8MLg"/>
+  <states uUID="_sdrGgLe0Eea6Bf9LxdzGKA" name="State1" xPosition="361.17596" yPosition="-4.49704" incomingTransitions="_uCqHULe0Eea6Bf9LxdzGKA _wjvkALe0Eea6Bf9LxdzGKA" outgoingTransitions="_zWAQQLe0Eea6Bf9LxdzGKA _zoCbcLe0Eea6Bf9LxdzGKA _z3E9ALe0Eea6Bf9LxdzGKA _0H61YLe0Eea6Bf9LxdzGKA _0WXhELe0Eea6Bf9LxdzGKA _0iJTQLe0Eea6Bf9LxdzGKA _0sbQoLe0Eea6Bf9LxdzGKA _02qxwLe0Eea6Bf9LxdzGKA _1AzlMLe0Eea6Bf9LxdzGKA _1OElILe0Eea6Bf9LxdzGKA _1c98wLe0Eea6Bf9LxdzGKA _1qFLsLe0Eea6Bf9LxdzGKA _1-_rwLe0Eea6Bf9LxdzGKA _2Ngo4Le0Eea6Bf9LxdzGKA _2fr-ALe0Eea6Bf9LxdzGKA"/>
+  <states uUID="_qub9gLe0Eea6Bf9LxdzGKA" name="State2" xPosition="359.86478" yPosition="359.2949" incomingTransitions="_-NvO0Le0Eea6Bf9LxdzGKA _-c8IcLe0Eea6Bf9LxdzGKA _-qMhULe0Eea6Bf9LxdzGKA _-4D-MLe0Eea6Bf9LxdzGKA __EuhMLe0Eea6Bf9LxdzGKA __RMP4Le0Eea6Bf9LxdzGKA __cwmsLe0Eea6Bf9LxdzGKA __mw3QLe0Eea6Bf9LxdzGKA __xVvkLe0Eea6Bf9LxdzGKA __76n4Le0Eea6Bf9LxdzGKA _AIJGALe1Eea6Bf9LxdzGKA _AVjP4Le1Eea6Bf9LxdzGKA _Aiqe0Le1Eea6Bf9LxdzGKA _AyAiYLe1Eea6Bf9LxdzGKA _BAK6MLe1Eea6Bf9LxdzGKA" outgoingTransitions="_vJd-YLe0Eea6Bf9LxdzGKA _guj6AME2EeazFsXKgh8MLg _g2Al0ME2EeazFsXKgh8MLg"/>
+  <states uUID="_gEPKoME2EeazFsXKgh8MLg" name="State3" xPosition="379.43353" yPosition="537.57367" incomingTransitions="_iWI70ME2EeazFsXKgh8MLg _ilMEcME2EeazFsXKgh8MLg _itlygME2EeazFsXKgh8MLg" outgoingTransitions="_wjvkALe0Eea6Bf9LxdzGKA _ics20ME2EeazFsXKgh8MLg"/>
+  <states uUID="_oNZkILe0Eea6Bf9LxdzGKA" name="videoMusic" xPosition="166.21394" yPosition="153.53821" incomingTransitions="_1c98wLe0Eea6Bf9LxdzGKA" outgoingTransitions="__EuhMLe0Eea6Bf9LxdzGKA">
+    <chain href="/.prt#_BqKc8Le2Eea6Bf9LxdzGKA"/>
+  </states>
+  <states uUID="_fv9jwME2EeazFsXKgh8MLg" name="WifiMobilVeriSwitch" xPosition="341.83978" yPosition="449.1023" incomingTransitions="_guj6AME2EeazFsXKgh8MLg" outgoingTransitions="_ilMEcME2EeazFsXKgh8MLg"/>
+  <transitions uUID="_uCqHULe0Eea6Bf9LxdzGKA" sourceState="_x2DLUbeyEea6Bf9LxdzGKA" targetState="_sdrGgLe0Eea6Bf9LxdzGKA">
+    <verifications uUID="_uEmBALe0Eea6Bf9LxdzGKA" name="Verification"/>
+    <testPlatformAssociationNodes xsi:type="scriptingassociation:ScriptingTestPlatformAssociationNode" uUID="_dG0jkMHAEeaF7ICwTOt7Rg">
+      <testPlatformLibrary xsi:type="scriptinglibrary:ScriptingTestPlatform" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_dGqykMHAEeaF7ICwTOt7Rg"/>
+      <associatedElements xsi:type="scriptingassociation:ScriptingAssociatedOperation" uUID="_39W_0MHOEea3oYBXdbKnHg">
+        <basedObject xsi:type="scriptinglibrary:ScriptingOperation" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_t8afUMHOEea3oYBXdbKnHg"/>
+      </associatedElements>
+    </testPlatformAssociationNodes>
+    <stimulation uUID="_uEc3ELe0Eea6Bf9LxdzGKA" name="Stimulation"/>
+    <probabilities>
+      <key href="/model/data/library/.profileslibrary#_ZEc0EEjoEee2m9gDqO0uPg"/>
+      <value frequency="Normal" value="1.000"/>
+    </probabilities>
+  </transitions>
+  <transitions uUID="_wjvkALe0Eea6Bf9LxdzGKA" sourceState="_gEPKoME2EeazFsXKgh8MLg" targetState="_sdrGgLe0Eea6Bf9LxdzGKA">
+    <verifications uUID="_wkMP8be0Eea6Bf9LxdzGKA" name="Verification"/>
+    <testPlatformAssociationNodes xsi:type="scriptingassociation:ScriptingTestPlatformAssociationNode" uUID="_dG0jksHAEeaF7ICwTOt7Rg">
+      <testPlatformLibrary xsi:type="scriptinglibrary:ScriptingTestPlatform" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_dGqykMHAEeaF7ICwTOt7Rg"/>
+    </testPlatformAssociationNodes>
+    <stimulation uUID="_wkMP8Le0Eea6Bf9LxdzGKA" name="Stimulation"/>
+    <probabilities>
+      <key href="/model/data/library/.profileslibrary#_ZEc0EEjoEee2m9gDqO0uPg"/>
+      <value frequency="Normal" value="0.500"/>
+    </probabilities>
+  </transitions>
+  <transitions uUID="_zWAQQLe0Eea6Bf9LxdzGKA" sourceState="_sdrGgLe0Eea6Bf9LxdzGKA" targetState="_qCPl4Le0Eea6Bf9LxdzGKA">
+    <verifications uUID="_zWmGIbe0Eea6Bf9LxdzGKA" name="Verification"/>
+    <testPlatformAssociationNodes xsi:type="scriptingassociation:ScriptingTestPlatformAssociationNode" uUID="_dG0jk8HAEeaF7ICwTOt7Rg">
+      <testPlatformLibrary xsi:type="scriptinglibrary:ScriptingTestPlatform" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_dGqykMHAEeaF7ICwTOt7Rg"/>
+    </testPlatformAssociationNodes>
+    <stimulation uUID="_zWmGILe0Eea6Bf9LxdzGKA" name="Stimulation"/>
+    <probabilities>
+      <key href="/model/data/library/.profileslibrary#_ZEc0EEjoEee2m9gDqO0uPg"/>
+      <value frequency="Normal" value="0.067"/>
+    </probabilities>
+  </transitions>
+  <transitions uUID="_zoCbcLe0Eea6Bf9LxdzGKA" sourceState="_sdrGgLe0Eea6Bf9LxdzGKA" targetState="_p-9oYLe0Eea6Bf9LxdzGKA">
+    <verifications uUID="_zooRUbe0Eea6Bf9LxdzGKA" name="Verification"/>
+    <testPlatformAssociationNodes xsi:type="scriptingassociation:ScriptingTestPlatformAssociationNode" uUID="_dG0jlMHAEeaF7ICwTOt7Rg">
+      <testPlatformLibrary xsi:type="scriptinglibrary:ScriptingTestPlatform" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_dGqykMHAEeaF7ICwTOt7Rg"/>
+    </testPlatformAssociationNodes>
+    <stimulation uUID="_zooRULe0Eea6Bf9LxdzGKA" name="Stimulation"/>
+    <probabilities>
+      <key href="/model/data/library/.profileslibrary#_ZEc0EEjoEee2m9gDqO0uPg"/>
+      <value frequency="Normal" value="0.067"/>
+    </probabilities>
+  </transitions>
+  <transitions uUID="_z3E9ALe0Eea6Bf9LxdzGKA" sourceState="_sdrGgLe0Eea6Bf9LxdzGKA" targetState="_p6MdILe0Eea6Bf9LxdzGKA">
+    <verifications uUID="_z3rZ8be0Eea6Bf9LxdzGKA" name="Verification"/>
+    <testPlatformAssociationNodes xsi:type="scriptingassociation:ScriptingTestPlatformAssociationNode" uUID="_dG0jlcHAEeaF7ICwTOt7Rg">
+      <testPlatformLibrary xsi:type="scriptinglibrary:ScriptingTestPlatform" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_dGqykMHAEeaF7ICwTOt7Rg"/>
+    </testPlatformAssociationNodes>
+    <stimulation uUID="_z3rZ8Le0Eea6Bf9LxdzGKA" name="Stimulation"/>
+    <probabilities>
+      <key href="/model/data/library/.profileslibrary#_ZEc0EEjoEee2m9gDqO0uPg"/>
+      <value frequency="Normal" value="0.067"/>
+    </probabilities>
+  </transitions>
+  <transitions uUID="_0H61YLe0Eea6Bf9LxdzGKA" sourceState="_sdrGgLe0Eea6Bf9LxdzGKA" targetState="_pvUC0Le0Eea6Bf9LxdzGKA">
+    <verifications uUID="_0IgrQbe0Eea6Bf9LxdzGKA" name="Verification"/>
+    <testPlatformAssociationNodes xsi:type="scriptingassociation:ScriptingTestPlatformAssociationNode" uUID="_dG0jlsHAEeaF7ICwTOt7Rg">
+      <testPlatformLibrary xsi:type="scriptinglibrary:ScriptingTestPlatform" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_dGqykMHAEeaF7ICwTOt7Rg"/>
+    </testPlatformAssociationNodes>
+    <stimulation uUID="_0IgrQLe0Eea6Bf9LxdzGKA" name="Stimulation"/>
+    <probabilities>
+      <key href="/model/data/library/.profileslibrary#_ZEc0EEjoEee2m9gDqO0uPg"/>
+      <value frequency="Normal" value="0.067"/>
+    </probabilities>
+  </transitions>
+  <transitions uUID="_0WXhELe0Eea6Bf9LxdzGKA" sourceState="_sdrGgLe0Eea6Bf9LxdzGKA" targetState="_poNVQLe0Eea6Bf9LxdzGKA">
+    <verifications uUID="_0W9-Abe0Eea6Bf9LxdzGKA" name="Verification"/>
+    <testPlatformAssociationNodes xsi:type="scriptingassociation:ScriptingTestPlatformAssociationNode" uUID="_dG0jl8HAEeaF7ICwTOt7Rg">
+      <testPlatformLibrary xsi:type="scriptinglibrary:ScriptingTestPlatform" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_dGqykMHAEeaF7ICwTOt7Rg"/>
+    </testPlatformAssociationNodes>
+    <stimulation uUID="_0W9-ALe0Eea6Bf9LxdzGKA" name="Stimulation"/>
+    <probabilities>
+      <key href="/model/data/library/.profileslibrary#_ZEc0EEjoEee2m9gDqO0uPg"/>
+      <value frequency="Normal" value="0.067"/>
+    </probabilities>
+  </transitions>
+  <transitions uUID="_0iJTQLe0Eea6Bf9LxdzGKA" sourceState="_sdrGgLe0Eea6Bf9LxdzGKA" targetState="_piZoMLe0Eea6Bf9LxdzGKA">
+    <verifications uUID="_0ivJIbe0Eea6Bf9LxdzGKA" name="Verification"/>
+    <testPlatformAssociationNodes xsi:type="scriptingassociation:ScriptingTestPlatformAssociationNode" uUID="_dG0jmMHAEeaF7ICwTOt7Rg">
+      <testPlatformLibrary xsi:type="scriptinglibrary:ScriptingTestPlatform" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_dGqykMHAEeaF7ICwTOt7Rg"/>
+    </testPlatformAssociationNodes>
+    <stimulation uUID="_0ivJILe0Eea6Bf9LxdzGKA" name="Stimulation"/>
+    <probabilities>
+      <key href="/model/data/library/.profileslibrary#_ZEc0EEjoEee2m9gDqO0uPg"/>
+      <value frequency="Normal" value="0.067"/>
+    </probabilities>
+  </transitions>
+  <transitions uUID="_0sbQoLe0Eea6Bf9LxdzGKA" sourceState="_sdrGgLe0Eea6Bf9LxdzGKA" targetState="_pdxm4Le0Eea6Bf9LxdzGKA">
+    <verifications uUID="_0tK3gbe0Eea6Bf9LxdzGKA" name="Verification"/>
+    <testPlatformAssociationNodes xsi:type="scriptingassociation:ScriptingTestPlatformAssociationNode" uUID="_dG0jmcHAEeaF7ICwTOt7Rg">
+      <testPlatformLibrary xsi:type="scriptinglibrary:ScriptingTestPlatform" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_dGqykMHAEeaF7ICwTOt7Rg"/>
+    </testPlatformAssociationNodes>
+    <stimulation uUID="_0tK3gLe0Eea6Bf9LxdzGKA" name="Stimulation"/>
+    <probabilities>
+      <key href="/model/data/library/.profileslibrary#_ZEc0EEjoEee2m9gDqO0uPg"/>
+      <value frequency="Normal" value="0.067"/>
+    </probabilities>
+  </transitions>
+  <transitions uUID="_02qxwLe0Eea6Bf9LxdzGKA" sourceState="_sdrGgLe0Eea6Bf9LxdzGKA" targetState="_pXXc4Le0Eea6Bf9LxdzGKA">
+    <verifications uUID="_03ROsbe0Eea6Bf9LxdzGKA" name="Verification"/>
+    <testPlatformAssociationNodes xsi:type="scriptingassociation:ScriptingTestPlatformAssociationNode" uUID="_dG0jmsHAEeaF7ICwTOt7Rg">
+      <testPlatformLibrary xsi:type="scriptinglibrary:ScriptingTestPlatform" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_dGqykMHAEeaF7ICwTOt7Rg"/>
+    </testPlatformAssociationNodes>
+    <stimulation uUID="_03ROsLe0Eea6Bf9LxdzGKA" name="Stimulation"/>
+    <probabilities>
+      <key href="/model/data/library/.profileslibrary#_ZEc0EEjoEee2m9gDqO0uPg"/>
+      <value frequency="Normal" value="0.067"/>
+    </probabilities>
+  </transitions>
+  <transitions uUID="_1AzlMLe0Eea6Bf9LxdzGKA" sourceState="_sdrGgLe0Eea6Bf9LxdzGKA" targetState="_pSTWsLe0Eea6Bf9LxdzGKA">
+    <verifications uUID="_1BjMEbe0Eea6Bf9LxdzGKA" name="Verification"/>
+    <testPlatformAssociationNodes xsi:type="scriptingassociation:ScriptingTestPlatformAssociationNode" uUID="_dG0jm8HAEeaF7ICwTOt7Rg">
+      <testPlatformLibrary xsi:type="scriptinglibrary:ScriptingTestPlatform" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_dGqykMHAEeaF7ICwTOt7Rg"/>
+    </testPlatformAssociationNodes>
+    <stimulation uUID="_1BjMELe0Eea6Bf9LxdzGKA" name="Stimulation"/>
+    <probabilities>
+      <key href="/model/data/library/.profileslibrary#_ZEc0EEjoEee2m9gDqO0uPg"/>
+      <value frequency="Normal" value="0.067"/>
+    </probabilities>
+  </transitions>
+  <transitions uUID="_1OElILe0Eea6Bf9LxdzGKA" sourceState="_sdrGgLe0Eea6Bf9LxdzGKA" targetState="_oTDgMLe0Eea6Bf9LxdzGKA">
+    <verifications uUID="_1OqbAbe0Eea6Bf9LxdzGKA" name="Verification"/>
+    <testPlatformAssociationNodes xsi:type="scriptingassociation:ScriptingTestPlatformAssociationNode" uUID="_dG0jnMHAEeaF7ICwTOt7Rg">
+      <testPlatformLibrary xsi:type="scriptinglibrary:ScriptingTestPlatform" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_dGqykMHAEeaF7ICwTOt7Rg"/>
+    </testPlatformAssociationNodes>
+    <stimulation uUID="_1OqbALe0Eea6Bf9LxdzGKA" name="Stimulation"/>
+    <probabilities>
+      <key href="/model/data/library/.profileslibrary#_ZEc0EEjoEee2m9gDqO0uPg"/>
+      <value frequency="Normal" value="0.067"/>
+    </probabilities>
+  </transitions>
+  <transitions uUID="_1c98wLe0Eea6Bf9LxdzGKA" sourceState="_sdrGgLe0Eea6Bf9LxdzGKA" targetState="_oNZkILe0Eea6Bf9LxdzGKA">
+    <verifications uUID="_1dtjobe0Eea6Bf9LxdzGKA" name="Verification"/>
+    <testPlatformAssociationNodes xsi:type="scriptingassociation:ScriptingTestPlatformAssociationNode" uUID="_dG0jncHAEeaF7ICwTOt7Rg">
+      <testPlatformLibrary xsi:type="scriptinglibrary:ScriptingTestPlatform" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_dGqykMHAEeaF7ICwTOt7Rg"/>
+    </testPlatformAssociationNodes>
+    <stimulation uUID="_1dtjoLe0Eea6Bf9LxdzGKA" name="Stimulation"/>
+    <probabilities>
+      <key href="/model/data/library/.profileslibrary#_ZEc0EEjoEee2m9gDqO0uPg"/>
+      <value frequency="Normal" value="0.066"/>
+    </probabilities>
+  </transitions>
+  <transitions uUID="_1qFLsLe0Eea6Bf9LxdzGKA" sourceState="_sdrGgLe0Eea6Bf9LxdzGKA" targetState="_oHyEULe0Eea6Bf9LxdzGKA">
+    <verifications uUID="_1qrBkbe0Eea6Bf9LxdzGKA" name="Verification"/>
+    <testPlatformAssociationNodes xsi:type="scriptingassociation:ScriptingTestPlatformAssociationNode" uUID="_dG0jnsHAEeaF7ICwTOt7Rg">
+      <testPlatformLibrary xsi:type="scriptinglibrary:ScriptingTestPlatform" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_dGqykMHAEeaF7ICwTOt7Rg"/>
+    </testPlatformAssociationNodes>
+    <stimulation uUID="_1qrBkLe0Eea6Bf9LxdzGKA" name="Stimulation"/>
+    <probabilities>
+      <key href="/model/data/library/.profileslibrary#_ZEc0EEjoEee2m9gDqO0uPg"/>
+      <value frequency="Normal" value="0.066"/>
+    </probabilities>
+  </transitions>
+  <transitions uUID="_1-_rwLe0Eea6Bf9LxdzGKA" sourceState="_sdrGgLe0Eea6Bf9LxdzGKA" targetState="_oB5ewLe0Eea6Bf9LxdzGKA">
+    <verifications uUID="_1_mIsbe0Eea6Bf9LxdzGKA" name="Verification"/>
+    <testPlatformAssociationNodes xsi:type="scriptingassociation:ScriptingTestPlatformAssociationNode" uUID="_dG0jn8HAEeaF7ICwTOt7Rg">
+      <testPlatformLibrary xsi:type="scriptinglibrary:ScriptingTestPlatform" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_dGqykMHAEeaF7ICwTOt7Rg"/>
+    </testPlatformAssociationNodes>
+    <stimulation uUID="_1_mIsLe0Eea6Bf9LxdzGKA" name="Stimulation"/>
+    <probabilities>
+      <key href="/model/data/library/.profileslibrary#_ZEc0EEjoEee2m9gDqO0uPg"/>
+      <value frequency="Normal" value="0.066"/>
+    </probabilities>
+  </transitions>
+  <transitions uUID="_2Ngo4Le0Eea6Bf9LxdzGKA" sourceState="_sdrGgLe0Eea6Bf9LxdzGKA" targetState="_n7WK0Le0Eea6Bf9LxdzGKA">
+    <verifications uUID="_2OGewbe0Eea6Bf9LxdzGKA" name="Verification"/>
+    <testPlatformAssociationNodes xsi:type="scriptingassociation:ScriptingTestPlatformAssociationNode" uUID="_dG0joMHAEeaF7ICwTOt7Rg">
+      <testPlatformLibrary xsi:type="scriptinglibrary:ScriptingTestPlatform" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_dGqykMHAEeaF7ICwTOt7Rg"/>
+    </testPlatformAssociationNodes>
+    <stimulation uUID="_2OGewLe0Eea6Bf9LxdzGKA" name="Stimulation"/>
+    <probabilities>
+      <key href="/model/data/library/.profileslibrary#_ZEc0EEjoEee2m9gDqO0uPg"/>
+      <value frequency="Normal" value="0.066"/>
+    </probabilities>
+  </transitions>
+  <transitions uUID="_2fr-ALe0Eea6Bf9LxdzGKA" sourceState="_sdrGgLe0Eea6Bf9LxdzGKA" targetState="_nwwrcLe0Eea6Bf9LxdzGKA">
+    <verifications uUID="_2g4Q0be0Eea6Bf9LxdzGKA" name="Verification"/>
+    <testPlatformAssociationNodes xsi:type="scriptingassociation:ScriptingTestPlatformAssociationNode" uUID="_dG0jocHAEeaF7ICwTOt7Rg">
+      <testPlatformLibrary xsi:type="scriptinglibrary:ScriptingTestPlatform" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_dGqykMHAEeaF7ICwTOt7Rg"/>
+    </testPlatformAssociationNodes>
+    <stimulation uUID="_2g4Q0Le0Eea6Bf9LxdzGKA" name="Stimulation"/>
+    <probabilities>
+      <key href="/model/data/library/.profileslibrary#_ZEc0EEjoEee2m9gDqO0uPg"/>
+      <value frequency="Normal" value="0.066"/>
+    </probabilities>
+  </transitions>
+  <transitions uUID="_-NvO0Le0Eea6Bf9LxdzGKA" sourceState="_nwwrcLe0Eea6Bf9LxdzGKA" targetState="_qub9gLe0Eea6Bf9LxdzGKA">
+    <verifications uUID="_-Oxwobe0Eea6Bf9LxdzGKA" name="Verification"/>
+    <testPlatformAssociationNodes xsi:type="scriptingassociation:ScriptingTestPlatformAssociationNode" uUID="_dG0josHAEeaF7ICwTOt7Rg">
+      <testPlatformLibrary xsi:type="scriptinglibrary:ScriptingTestPlatform" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_dGqykMHAEeaF7ICwTOt7Rg"/>
+    </testPlatformAssociationNodes>
+    <stimulation uUID="_-OxwoLe0Eea6Bf9LxdzGKA" name="Stimulation"/>
+    <probabilities>
+      <key href="/model/data/library/.profileslibrary#_ZEc0EEjoEee2m9gDqO0uPg"/>
+      <value frequency="Normal" value="1.000"/>
+    </probabilities>
+  </transitions>
+  <transitions uUID="_-c8IcLe0Eea6Bf9LxdzGKA" sourceState="_n7WK0Le0Eea6Bf9LxdzGKA" targetState="_qub9gLe0Eea6Bf9LxdzGKA">
+    <verifications uUID="_-drvUbe0Eea6Bf9LxdzGKA" name="Verification"/>
+    <testPlatformAssociationNodes xsi:type="scriptingassociation:ScriptingTestPlatformAssociationNode" uUID="_dG0jo8HAEeaF7ICwTOt7Rg">
+      <testPlatformLibrary xsi:type="scriptinglibrary:ScriptingTestPlatform" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_dGqykMHAEeaF7ICwTOt7Rg"/>
+    </testPlatformAssociationNodes>
+    <stimulation uUID="_-drvULe0Eea6Bf9LxdzGKA" name="Stimulation"/>
+    <probabilities>
+      <key href="/model/data/library/.profileslibrary#_ZEc0EEjoEee2m9gDqO0uPg"/>
+      <value frequency="Normal" value="1.000"/>
+    </probabilities>
+  </transitions>
+  <transitions uUID="_-qMhULe0Eea6Bf9LxdzGKA" sourceState="_oB5ewLe0Eea6Bf9LxdzGKA" targetState="_qub9gLe0Eea6Bf9LxdzGKA">
+    <verifications uUID="_-r1gEbe0Eea6Bf9LxdzGKA" name="Verification"/>
+    <testPlatformAssociationNodes xsi:type="scriptingassociation:ScriptingTestPlatformAssociationNode" uUID="_dG0jpMHAEeaF7ICwTOt7Rg">
+      <testPlatformLibrary xsi:type="scriptinglibrary:ScriptingTestPlatform" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_dGqykMHAEeaF7ICwTOt7Rg"/>
+    </testPlatformAssociationNodes>
+    <stimulation uUID="_-r1gELe0Eea6Bf9LxdzGKA" name="Stimulation"/>
+    <probabilities>
+      <key href="/model/data/library/.profileslibrary#_ZEc0EEjoEee2m9gDqO0uPg"/>
+      <value frequency="Normal" value="1.000"/>
+    </probabilities>
+  </transitions>
+  <transitions uUID="_-4D-MLe0Eea6Bf9LxdzGKA" sourceState="_oHyEULe0Eea6Bf9LxdzGKA" targetState="_qub9gLe0Eea6Bf9LxdzGKA">
+    <verifications uUID="_-4y-Abe0Eea6Bf9LxdzGKA" name="Verification"/>
+    <testPlatformAssociationNodes xsi:type="scriptingassociation:ScriptingTestPlatformAssociationNode" uUID="_dG0jpcHAEeaF7ICwTOt7Rg">
+      <testPlatformLibrary xsi:type="scriptinglibrary:ScriptingTestPlatform" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_dGqykMHAEeaF7ICwTOt7Rg"/>
+    </testPlatformAssociationNodes>
+    <stimulation uUID="_-4y-ALe0Eea6Bf9LxdzGKA" name="Stimulation"/>
+    <probabilities>
+      <key href="/model/data/library/.profileslibrary#_ZEc0EEjoEee2m9gDqO0uPg"/>
+      <value frequency="Normal" value="1.000"/>
+    </probabilities>
+  </transitions>
+  <transitions uUID="__EuhMLe0Eea6Bf9LxdzGKA" sourceState="_oNZkILe0Eea6Bf9LxdzGKA" targetState="_qub9gLe0Eea6Bf9LxdzGKA">
+    <verifications uUID="__FnSALe0Eea6Bf9LxdzGKA" name="Verification"/>
+    <testPlatformAssociationNodes xsi:type="scriptingassociation:ScriptingTestPlatformAssociationNode" uUID="_dG0jpsHAEeaF7ICwTOt7Rg">
+      <testPlatformLibrary xsi:type="scriptinglibrary:ScriptingTestPlatform" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_dGqykMHAEeaF7ICwTOt7Rg"/>
+    </testPlatformAssociationNodes>
+    <stimulation uUID="__FeIELe0Eea6Bf9LxdzGKA" name="Stimulation"/>
+    <probabilities>
+      <key href="/model/data/library/.profileslibrary#_ZEc0EEjoEee2m9gDqO0uPg"/>
+      <value frequency="Normal" value="1.000"/>
+    </probabilities>
+  </transitions>
+  <transitions uUID="__RMP4Le0Eea6Bf9LxdzGKA" sourceState="_oTDgMLe0Eea6Bf9LxdzGKA" targetState="_qub9gLe0Eea6Bf9LxdzGKA">
+    <verifications uUID="__R72wbe0Eea6Bf9LxdzGKA" name="Verification"/>
+    <testPlatformAssociationNodes xsi:type="scriptingassociation:ScriptingTestPlatformAssociationNode" uUID="_dG0jp8HAEeaF7ICwTOt7Rg">
+      <testPlatformLibrary xsi:type="scriptinglibrary:ScriptingTestPlatform" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_dGqykMHAEeaF7ICwTOt7Rg"/>
+    </testPlatformAssociationNodes>
+    <stimulation uUID="__R72wLe0Eea6Bf9LxdzGKA" name="Stimulation"/>
+    <probabilities>
+      <key href="/model/data/library/.profileslibrary#_ZEc0EEjoEee2m9gDqO0uPg"/>
+      <value frequency="Normal" value="1.000"/>
+    </probabilities>
+  </transitions>
+  <transitions uUID="__cwmsLe0Eea6Bf9LxdzGKA" sourceState="_pSTWsLe0Eea6Bf9LxdzGKA" targetState="_qub9gLe0Eea6Bf9LxdzGKA">
+    <verifications uUID="__dfmgbe0Eea6Bf9LxdzGKA" name="Verification"/>
+    <testPlatformAssociationNodes xsi:type="scriptingassociation:ScriptingTestPlatformAssociationNode" uUID="_dG0jqMHAEeaF7ICwTOt7Rg">
+      <testPlatformLibrary xsi:type="scriptinglibrary:ScriptingTestPlatform" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_dGqykMHAEeaF7ICwTOt7Rg"/>
+    </testPlatformAssociationNodes>
+    <stimulation uUID="__dfmgLe0Eea6Bf9LxdzGKA" name="Stimulation"/>
+    <probabilities>
+      <key href="/model/data/library/.profileslibrary#_ZEc0EEjoEee2m9gDqO0uPg"/>
+      <value frequency="Normal" value="1.000"/>
+    </probabilities>
+  </transitions>
+  <transitions uUID="__mw3QLe0Eea6Bf9LxdzGKA" sourceState="_pXXc4Le0Eea6Bf9LxdzGKA" targetState="_qub9gLe0Eea6Bf9LxdzGKA">
+    <verifications uUID="__ngeILe0Eea6Bf9LxdzGKA" name="Verification"/>
+    <testPlatformAssociationNodes xsi:type="scriptingassociation:ScriptingTestPlatformAssociationNode" uUID="_dG0jqcHAEeaF7ICwTOt7Rg">
+      <testPlatformLibrary xsi:type="scriptinglibrary:ScriptingTestPlatform" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_dGqykMHAEeaF7ICwTOt7Rg"/>
+    </testPlatformAssociationNodes>
+    <stimulation uUID="__nWtILe0Eea6Bf9LxdzGKA" name="Stimulation"/>
+    <probabilities>
+      <key href="/model/data/library/.profileslibrary#_ZEc0EEjoEee2m9gDqO0uPg"/>
+      <value frequency="Normal" value="1.000"/>
+    </probabilities>
+  </transitions>
+  <transitions uUID="__xVvkLe0Eea6Bf9LxdzGKA" sourceState="_pdxm4Le0Eea6Bf9LxdzGKA" targetState="_qub9gLe0Eea6Bf9LxdzGKA">
+    <verifications uUID="__yFWcLe0Eea6Bf9LxdzGKA" name="Verification"/>
+    <testPlatformAssociationNodes xsi:type="scriptingassociation:ScriptingTestPlatformAssociationNode" uUID="_dG0jqsHAEeaF7ICwTOt7Rg">
+      <testPlatformLibrary xsi:type="scriptinglibrary:ScriptingTestPlatform" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_dGqykMHAEeaF7ICwTOt7Rg"/>
+    </testPlatformAssociationNodes>
+    <stimulation uUID="__x8MgLe0Eea6Bf9LxdzGKA" name="Stimulation"/>
+    <probabilities>
+      <key href="/model/data/library/.profileslibrary#_ZEc0EEjoEee2m9gDqO0uPg"/>
+      <value frequency="Normal" value="1.000"/>
+    </probabilities>
+  </transitions>
+  <transitions uUID="__76n4Le0Eea6Bf9LxdzGKA" sourceState="_piZoMLe0Eea6Bf9LxdzGKA" targetState="_qub9gLe0Eea6Bf9LxdzGKA">
+    <verifications uUID="__8hE0be0Eea6Bf9LxdzGKA" name="Verification"/>
+    <testPlatformAssociationNodes xsi:type="scriptingassociation:ScriptingTestPlatformAssociationNode" uUID="_dG0jq8HAEeaF7ICwTOt7Rg">
+      <testPlatformLibrary xsi:type="scriptinglibrary:ScriptingTestPlatform" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_dGqykMHAEeaF7ICwTOt7Rg"/>
+    </testPlatformAssociationNodes>
+    <stimulation uUID="__8hE0Le0Eea6Bf9LxdzGKA" name="Stimulation"/>
+    <probabilities>
+      <key href="/model/data/library/.profileslibrary#_ZEc0EEjoEee2m9gDqO0uPg"/>
+      <value frequency="Normal" value="1.000"/>
+    </probabilities>
+  </transitions>
+  <transitions uUID="_AIJGALe1Eea6Bf9LxdzGKA" sourceState="_poNVQLe0Eea6Bf9LxdzGKA" targetState="_qub9gLe0Eea6Bf9LxdzGKA">
+    <verifications uUID="_AIu74be1Eea6Bf9LxdzGKA" name="Verification"/>
+    <testPlatformAssociationNodes xsi:type="scriptingassociation:ScriptingTestPlatformAssociationNode" uUID="_dG0jrMHAEeaF7ICwTOt7Rg">
+      <testPlatformLibrary xsi:type="scriptinglibrary:ScriptingTestPlatform" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_dGqykMHAEeaF7ICwTOt7Rg"/>
+    </testPlatformAssociationNodes>
+    <stimulation uUID="_AIu74Le1Eea6Bf9LxdzGKA" name="Stimulation"/>
+    <probabilities>
+      <key href="/model/data/library/.profileslibrary#_ZEc0EEjoEee2m9gDqO0uPg"/>
+      <value frequency="Normal" value="1.000"/>
+    </probabilities>
+  </transitions>
+  <transitions uUID="_AVjP4Le1Eea6Bf9LxdzGKA" sourceState="_pvUC0Le0Eea6Bf9LxdzGKA" targetState="_qub9gLe0Eea6Bf9LxdzGKA">
+    <verifications uUID="_AWcnwbe1Eea6Bf9LxdzGKA" name="Verification"/>
+    <testPlatformAssociationNodes xsi:type="scriptingassociation:ScriptingTestPlatformAssociationNode" uUID="_dG0jrcHAEeaF7ICwTOt7Rg">
+      <testPlatformLibrary xsi:type="scriptinglibrary:ScriptingTestPlatform" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_dGqykMHAEeaF7ICwTOt7Rg"/>
+    </testPlatformAssociationNodes>
+    <stimulation uUID="_AWcnwLe1Eea6Bf9LxdzGKA" name="Stimulation"/>
+    <probabilities>
+      <key href="/model/data/library/.profileslibrary#_ZEc0EEjoEee2m9gDqO0uPg"/>
+      <value frequency="Normal" value="1.000"/>
+    </probabilities>
+  </transitions>
+  <transitions uUID="_Aiqe0Le1Eea6Bf9LxdzGKA" sourceState="_p6MdILe0Eea6Bf9LxdzGKA" targetState="_qub9gLe0Eea6Bf9LxdzGKA">
+    <verifications uUID="_AjaFsbe1Eea6Bf9LxdzGKA" name="Verification"/>
+    <testPlatformAssociationNodes xsi:type="scriptingassociation:ScriptingTestPlatformAssociationNode" uUID="_dG0jrsHAEeaF7ICwTOt7Rg">
+      <testPlatformLibrary xsi:type="scriptinglibrary:ScriptingTestPlatform" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_dGqykMHAEeaF7ICwTOt7Rg"/>
+    </testPlatformAssociationNodes>
+    <stimulation uUID="_AjaFsLe1Eea6Bf9LxdzGKA" name="Stimulation"/>
+    <probabilities>
+      <key href="/model/data/library/.profileslibrary#_ZEc0EEjoEee2m9gDqO0uPg"/>
+      <value frequency="Normal" value="1.000"/>
+    </probabilities>
+  </transitions>
+  <transitions uUID="_AyAiYLe1Eea6Bf9LxdzGKA" sourceState="_p-9oYLe0Eea6Bf9LxdzGKA" targetState="_qub9gLe0Eea6Bf9LxdzGKA">
+    <verifications uUID="_Aym_Ube1Eea6Bf9LxdzGKA" name="Verification"/>
+    <testPlatformAssociationNodes xsi:type="scriptingassociation:ScriptingTestPlatformAssociationNode" uUID="_dG0jr8HAEeaF7ICwTOt7Rg">
+      <testPlatformLibrary xsi:type="scriptinglibrary:ScriptingTestPlatform" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_dGqykMHAEeaF7ICwTOt7Rg"/>
+    </testPlatformAssociationNodes>
+    <stimulation uUID="_Aym_ULe1Eea6Bf9LxdzGKA" name="Stimulation"/>
+    <probabilities>
+      <key href="/model/data/library/.profileslibrary#_ZEc0EEjoEee2m9gDqO0uPg"/>
+      <value frequency="Normal" value="1.000"/>
+    </probabilities>
+  </transitions>
+  <transitions uUID="_BAK6MLe1Eea6Bf9LxdzGKA" sourceState="_qCPl4Le0Eea6Bf9LxdzGKA" targetState="_qub9gLe0Eea6Bf9LxdzGKA">
+    <verifications uUID="_BA6hEbe1Eea6Bf9LxdzGKA" name="Verification"/>
+    <testPlatformAssociationNodes xsi:type="scriptingassociation:ScriptingTestPlatformAssociationNode" uUID="_dG0jsMHAEeaF7ICwTOt7Rg">
+      <testPlatformLibrary xsi:type="scriptinglibrary:ScriptingTestPlatform" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_dGqykMHAEeaF7ICwTOt7Rg"/>
+    </testPlatformAssociationNodes>
+    <stimulation uUID="_BA6hELe1Eea6Bf9LxdzGKA" name="Stimulation"/>
+    <probabilities>
+      <key href="/model/data/library/.profileslibrary#_ZEc0EEjoEee2m9gDqO0uPg"/>
+      <value frequency="Normal" value="1.000"/>
+    </probabilities>
+  </transitions>
+  <transitions uUID="_iWI70ME2EeazFsXKgh8MLg" sourceState="_bgkyMME2EeazFsXKgh8MLg" targetState="_gEPKoME2EeazFsXKgh8MLg">
+    <verifications uUID="_iWlnwcE2EeazFsXKgh8MLg" name="Verification"/>
+    <testPlatformAssociationNodes xsi:type="scriptingassociation:ScriptingTestPlatformAssociationNode" uUID="_dG0js8HAEeaF7ICwTOt7Rg">
+      <testPlatformLibrary xsi:type="scriptinglibrary:ScriptingTestPlatform" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_dGqykMHAEeaF7ICwTOt7Rg"/>
+    </testPlatformAssociationNodes>
+    <stimulation uUID="_iWlnwME2EeazFsXKgh8MLg" name="Stimulation"/>
+    <probabilities>
+      <key href="/model/data/library/.profileslibrary#_ZEc0EEjoEee2m9gDqO0uPg"/>
+      <value frequency="Normal" value="1.000"/>
+    </probabilities>
+  </transitions>
+  <transitions uUID="_ics20ME2EeazFsXKgh8MLg" sourceState="_gEPKoME2EeazFsXKgh8MLg" targetState="_x2DLUreyEea6Bf9LxdzGKA">
+    <verifications uUID="_idI7scE2EeazFsXKgh8MLg" name="Verification"/>
+    <testPlatformAssociationNodes xsi:type="scriptingassociation:ScriptingTestPlatformAssociationNode" uUID="_dG0jtMHAEeaF7ICwTOt7Rg">
+      <testPlatformLibrary xsi:type="scriptinglibrary:ScriptingTestPlatform" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_dGqykMHAEeaF7ICwTOt7Rg"/>
+      <associatedElements xsi:type="scriptingassociation:ScriptingAssociatedOperation" uUID="_xazcUMHPEea3oYBXdbKnHg">
+        <basedObject xsi:type="scriptinglibrary:ScriptingOperation" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_uW0t8MHPEea3oYBXdbKnHg"/>
+      </associatedElements>
+    </testPlatformAssociationNodes>
+    <stimulation uUID="_idI7sME2EeazFsXKgh8MLg" name="Stimulation"/>
+    <probabilities>
+      <key href="/model/data/library/.profileslibrary#_ZEc0EEjoEee2m9gDqO0uPg"/>
+      <value frequency="Normal" value="0.500"/>
+    </probabilities>
+  </transitions>
+  <transitions uUID="_ilMEcME2EeazFsXKgh8MLg" sourceState="_fv9jwME2EeazFsXKgh8MLg" targetState="_gEPKoME2EeazFsXKgh8MLg">
+    <verifications uUID="_ilowYcE2EeazFsXKgh8MLg" name="Verification"/>
+    <testPlatformAssociationNodes xsi:type="scriptingassociation:ScriptingTestPlatformAssociationNode" uUID="_dG0jtcHAEeaF7ICwTOt7Rg">
+      <testPlatformLibrary xsi:type="scriptinglibrary:ScriptingTestPlatform" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_dGqykMHAEeaF7ICwTOt7Rg"/>
+    </testPlatformAssociationNodes>
+    <stimulation uUID="_ilowYME2EeazFsXKgh8MLg" name="Stimulation"/>
+    <probabilities>
+      <key href="/model/data/library/.profileslibrary#_ZEc0EEjoEee2m9gDqO0uPg"/>
+      <value frequency="Normal" value="1.000"/>
+    </probabilities>
+  </transitions>
+  <transitions uUID="_itlygME2EeazFsXKgh8MLg" sourceState="_fzsNMME2EeazFsXKgh8MLg" targetState="_gEPKoME2EeazFsXKgh8MLg">
+    <verifications uUID="_iuCeccE2EeazFsXKgh8MLg" name="Verification"/>
+    <testPlatformAssociationNodes xsi:type="scriptingassociation:ScriptingTestPlatformAssociationNode" uUID="_dG0jtsHAEeaF7ICwTOt7Rg">
+      <testPlatformLibrary xsi:type="scriptinglibrary:ScriptingTestPlatform" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_dGqykMHAEeaF7ICwTOt7Rg"/>
+    </testPlatformAssociationNodes>
+    <stimulation uUID="_iuCecME2EeazFsXKgh8MLg" name="Stimulation"/>
+    <probabilities>
+      <key href="/model/data/library/.profileslibrary#_ZEc0EEjoEee2m9gDqO0uPg"/>
+      <value frequency="Normal" value="1.000"/>
+    </probabilities>
+  </transitions>
+  <transitions uUID="_vJd-YLe0Eea6Bf9LxdzGKA" name="Cihazı stand by on/off konumuna al." sourceState="_qub9gLe0Eea6Bf9LxdzGKA" targetState="_bgkyMME2EeazFsXKgh8MLg">
+    <verifications uUID="_vJ6DQbe0Eea6Bf9LxdzGKA" name="Verification"/>
+    <testPlatformAssociationNodes xsi:type="scriptingassociation:ScriptingTestPlatformAssociationNode" uUID="_dG0jkcHAEeaF7ICwTOt7Rg">
+      <testPlatformLibrary xsi:type="scriptinglibrary:ScriptingTestPlatform" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_dGqykMHAEeaF7ICwTOt7Rg"/>
+      <associatedElements xsi:type="scriptingassociation:ScriptingAssociatedOperation" uUID="_jYDPAMKaEea8m9lVYjUpAg">
+        <inputParameters xsi:type="scriptingassociation:ScriptingAssociatedParameter" uUID="_jYDPAcKaEea8m9lVYjUpAg">
+          <value xsi:type="association:StringValue" value=""/>
+          <basedObject xsi:type="scriptinglibrary:ScriptingParameter" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_oYu8sMHAEeaF7ICwTOt7Rg"/>
+        </inputParameters>
+        <basedObject xsi:type="scriptinglibrary:ScriptingOperation" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_iV_XIMHAEeaF7ICwTOt7Rg"/>
+      </associatedElements>
+    </testPlatformAssociationNodes>
+    <stimulation uUID="_vJ6DQLe0Eea6Bf9LxdzGKA" name="Stimulation"/>
+    <probabilities>
+      <key href="/model/data/library/.profileslibrary#_ZEc0EEjoEee2m9gDqO0uPg"/>
+      <value frequency="Normal" value="0.334"/>
+    </probabilities>
+  </transitions>
+  <transitions uUID="_g2Al0ME2EeazFsXKgh8MLg" name="Cihazı yeniden başlat." sourceState="_qub9gLe0Eea6Bf9LxdzGKA" targetState="_fzsNMME2EeazFsXKgh8MLg">
+    <verifications uUID="_g2dRwcE2EeazFsXKgh8MLg" name="Verification"/>
+    <testPlatformAssociationNodes xsi:type="scriptingassociation:ScriptingTestPlatformAssociationNode" uUID="_dG0jssHAEeaF7ICwTOt7Rg">
+      <testPlatformLibrary xsi:type="scriptinglibrary:ScriptingTestPlatform" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_dGqykMHAEeaF7ICwTOt7Rg"/>
+      <associatedElements xsi:type="scriptingassociation:ScriptingAssociatedOperation" uUID="_kiJqoMKaEea8m9lVYjUpAg">
+        <inputParameters xsi:type="scriptingassociation:ScriptingAssociatedParameter" uUID="_kiJqocKaEea8m9lVYjUpAg">
+          <value xsi:type="association:StringValue" value=""/>
+          <basedObject xsi:type="scriptinglibrary:ScriptingParameter" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_oYu8sMHAEeaF7ICwTOt7Rg"/>
+        </inputParameters>
+        <basedObject xsi:type="scriptinglibrary:ScriptingOperation" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_iV_XIMHAEeaF7ICwTOt7Rg"/>
+      </associatedElements>
+    </testPlatformAssociationNodes>
+    <stimulation uUID="_g2dRwME2EeazFsXKgh8MLg" name="Stimulation"/>
+    <probabilities>
+      <key href="/model/data/library/.profileslibrary#_ZEc0EEjoEee2m9gDqO0uPg"/>
+      <value frequency="Normal" value="0.333"/>
+    </probabilities>
+  </transitions>
+  <transitions uUID="_guj6AME2EeazFsXKgh8MLg" name="Wifi kapatıp mobil veriye geç, yine tam tersi işlemi tekrarla." sourceState="_qub9gLe0Eea6Bf9LxdzGKA" targetState="_fv9jwME2EeazFsXKgh8MLg">
+    <verifications uUID="_gvJv4cE2EeazFsXKgh8MLg" name="Verification"/>
+    <testPlatformAssociationNodes xsi:type="scriptingassociation:ScriptingTestPlatformAssociationNode" uUID="_dG0jscHAEeaF7ICwTOt7Rg">
+      <testPlatformLibrary xsi:type="scriptinglibrary:ScriptingTestPlatform" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_dGqykMHAEeaF7ICwTOt7Rg"/>
+      <associatedElements xsi:type="scriptingassociation:ScriptingAssociatedOperation" uUID="_j-SvoMKaEea8m9lVYjUpAg">
+        <inputParameters xsi:type="scriptingassociation:ScriptingAssociatedParameter" uUID="_j-SvocKaEea8m9lVYjUpAg">
+          <value xsi:type="association:StringValue" value=""/>
+          <basedObject xsi:type="scriptinglibrary:ScriptingParameter" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_oYu8sMHAEeaF7ICwTOt7Rg"/>
+        </inputParameters>
+        <basedObject xsi:type="scriptinglibrary:ScriptingOperation" href="/testplatform/_dGqykMHAEeaF7ICwTOt7Rg.scriptinglibrary#_iV_XIMHAEeaF7ICwTOt7Rg"/>
+      </associatedElements>
+    </testPlatformAssociationNodes>
+    <stimulation uUID="_gvJv4ME2EeazFsXKgh8MLg" name="Stimulation"/>
+    <probabilities>
+      <key href="/model/data/library/.profileslibrary#_ZEc0EEjoEee2m9gDqO0uPg"/>
+      <value frequency="Normal" value="0.333"/>
+    </probabilities>
+  </transitions>
+  <chain href="/.prt#_x2M8UbeyEea6Bf9LxdzGKA"/>
+</diagram:Diagram>
